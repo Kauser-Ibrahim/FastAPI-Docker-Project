@@ -1,5 +1,5 @@
 from fastapi import Header, HTTPException, Security
-from app.core.security import verify_token, get_api_key
+from app.core.security import verify_token
 from app.core.config import settings
 
 
