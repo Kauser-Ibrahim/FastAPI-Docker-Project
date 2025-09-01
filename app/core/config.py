@@ -10,7 +10,7 @@ class Settings:
     JWT_SECRET = os.getenv("JWT_SECRET", "secret")
     JWT_ALGORITHM = "HS256"
     REDIS_URL = os.getenv("REDIS_URL", "redis://localhost:6379")
-    MODEL_PATH = "app/models/model.pkl"
+    MODEL_PATH = "app/models/model.joblib"
 
 
 settings = Settings()
